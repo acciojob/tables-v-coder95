@@ -9,42 +9,19 @@
 </head>
 
 <body>
-	<table class="font-monospace text-end fw-bold ">
-		<caption>List of all transactions</caption>
-		<thead>
-		<tr>
-			
-		<th > #</th>
-		<th>form</th>
-		<th>to</th>
-		<th>amount($)</th></tr>
-		<tr>
-		</thead>
-			<td>1</td>
-			<td>mark</td>
-			<td>otto</td>
-			<td>1000</td>
-		</tr>
-
-		<tr>
-			<td>2</td>
-				<td>jacob</td>
-			<td>thornton</td>
-			<td>1500</td>
-		</tr>
-
-		<tr>
-			<td>3</td>
-			<td>jack</td>
-			<td>john</td>
-			<td>2000</td>
-		</tr>
-		<tfoot>
-		<tr >
-			<td id="total" colspan=4 >Total 4000
-			</td>
-		</tr>
-		</tfoot>
+	<table class="table font-monospace text-end fw-bold table-hover table-responsive">
+	<caption>List of all transcations</caption>
+	<thead class="table-dark">
+		<th scope="col">#</th>
+		<th scope="col">From</th><th scope="col">To</th><th scope="col">Amount</th>
+	</thead>
+	<tbody>
+		<tr><td scope="row">1</td><td>Mark</td><td>Otto</td><td>1000</td></tr>
+		<tr><td scope="row">2</td><td>Jacob</td><td>Thornton</td><td>100</td></tr>
+		<tr id="pp"><td scope="row">3</td><td>Jack</td><td>John</td><td>2000</td></tr>
+		</tbody><tfoot class="table-light"><tr><td colspan="3" id="total">Total  4000</td></tr>
+	</tfoot>
+</table>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>

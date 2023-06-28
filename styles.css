@@ -1,27 +1,9 @@
 
 /* Your CSS Code here. */
-caption{
-	text-align:left;
-	color:grey;
-}
 thead{
 	background-color:black;
-	color:white;
+	color:white
 }
-table{
-	width:100%;
-	border-collapse:collapse;
-}
-td{
-	padding:10px;
-	text-align:center;
-}
-tfoot>tr{
-	text-align:right;
-	font-weight:bold;
-	background-color:beige;
-}
-tr{
-	border-bottom:1px solid #eeeeee;
-	
+#pp{
+	border-bottom:1px solid grey;
 }
