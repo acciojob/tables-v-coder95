@@ -16,12 +16,12 @@ td{
 	padding:10px;
 	text-align:center;
 }
-#total{
+tfoot>tr{
 	text-align:right;
 	font-weight:bold;
 	background-color:beige;
 }
 tr{
-	border-bottom:1px solid#eeeeee;
+	border-bottom:1px solid #eeeeee;
 	
 }
