@@ -1,2 +1,21 @@
 
 /* Your CSS Code here. */
+thead{
+	background-color:black;
+	color:white;
+}
+table{
+	width:100%;
+	border-collapse:collapse;
+}
+td{
+	padding:10px;
+}
+#total{
+	text-align:right;
+	font-weight:bold;
+	background-color:beige;
+}
+tr{
+	border-bottom:1px solid#eeeeee;
+}
