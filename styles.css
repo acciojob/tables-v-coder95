@@ -1,5 +1,9 @@
 
 /* Your CSS Code here. */
+caption{
+	text-align:left;
+	color:grey;
+}
 thead{
 	background-color:black;
 	color:white;
@@ -19,4 +23,5 @@ td{
 }
 tr{
 	border-bottom:1px solid#eeeeee;
+	
 }
